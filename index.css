@@ -21,3 +21,60 @@
   width: 100%;
   height: 100%;
 }
+
+
+/* Add this CSS code to a separate CSS file and link it to your HTML file */
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+}
+
+
+
+
+/* Pagination styles */
+#pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pageBtn {
+  margin: 0 5px;
+}
+
+
+
+/* Type checkbox styles */
+#typeCheckboxes {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#typeCheckboxes label {
+  margin-right: 10px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  #pokeCards {
+    justify-content: flex-start;
+  }
+
+  .modal-body {
+    flex-wrap: wrap;
+  }
+
+  .modal-body > div {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
